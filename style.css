@@ -1,0 +1,55 @@
+body {
+  background-image: url(background.jpg);
+  background-size: 100%;
+}
+
+/* conteiner principale */
+.conteiner {
+  background-color: rgba(10,10,10,0.5);
+  border-radius: 6px;
+  margin: auto;
+  width: 900px
+
+}
+
+/* modifiche header */
+header {
+  text-align: center;
+  color: rgb(57,255,40);
+}
+
+.logo {
+  width: 250px
+}
+
+.barra-navigazione {
+  text-align: center;
+  background-color: rgb(57,255,40);
+  height: 30px;
+}
+
+/* modifiche main */
+main {
+  color: white;
+}
+
+.main-alighn {
+
+}
+
+.Text-dim {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.arrow:before {
+  content: "\21A6";
+}
+
+.righe-inferiori {
+  display: inline-block;
+}
+
+.barra-carica {
+
+}
