@@ -4,49 +4,86 @@
     <meta charset="utf-8">
     <title>Scooter Lim</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
 
     <div class="conteiner">
-      <header>
-        <!-- logo e testo centrati -->
-        <img class="logo" src="logo.png" alt="">
-        <h1>Taking Boolaners from A to B</h1>
-      </header>
 
-      <nav>
-        <!-- barra di navigazione con elementi interni -->
-        <div class="barra-navigazione">
-          <button type="button" name="button">Prenota</button>
-          <button type="button" name="button">Termina Prenotazione</button>
-          <button type="button" name="button">Accendi Luci</button>
-        </div>
-      </nav>
+      <div class="margin">
 
-      <main>
-        <!-- menu selezione monopattolo -->
-        <div class="main-alighn">
-          <span><input type="checkbox" name="" value="">
-          <span class="Text-dim">Monopattino Gino22</span>
-          <div class="righe-inferioiri">
-            <span class="arrow"></span>
-            <span>Via Guadalametri - a 220 metri da te</span>
+        <header class="pos-header">
+          <!-- logo e testo -->
+          <img class="logo" src="logo.png" alt="">
+          <div>
+            <span>Taking Boolaners from A to B</span>
           </div>
-          <div class="righe-inferioiri">
-            <span>Stato Carica:</span>
+
+        </header>
+
+        <nav>
+          <!-- barra di navigazione con elementi interni -->
+          <div class="barra-navigazione">
+            <button class="button-size" type="button" name="button">Prenota</button>
+            <button class="button-size" type="button" name="button">Termina Prenotazione</button>
+            <button class="button-size" type="button" name="button">Accendi Luci</button>
           </div>
-          <div class="barra-carica">
+        </nav>
 
+        <main>
+          <!-- menu selezione monopattolo -->
+          <!-- primo Monopattino -->
+          <div class="main-alighn">
+            <span><input type="checkbox" name="" value="">
+            <span class="head-dim">Monopattino Gino22</span>
+            <div class="righe-inferioiri">
+              <span class="arrow"></span>
+              <span>Via Guadalametri - a 220 metri da te</span>
+            </div>
+            <div class="righe-inferioiri">
+              <span>Stato Carica:</span>
+            </div>
+            <div id="barra-ricarica-1">
+            </div>
           </div>
-        </div>
 
+          <!-- secondo Monopattino -->
+          <div class="main-alighn">
+            <span><input type="checkbox" name="" value="">
+            <span class="head-dim">Monopattino Mike 24</span>
+            <div class="righe-inferioiri">
+              <span class="arrow"></span>
+              <span>Via Ricciardoni - a 420 metri da te</span>
+            </div>
+            <div class="righe-inferioiri">
+              <span>Stato Carica:</span>
+            </div>
+            <div id="barra-ricarica-2">
+            </div>
+          </div>
 
-      </main>
+          <!-- terzo Monopattino -->
+          <div class="main-alighn">
+            <span><input type="checkbox" name="" value="">
+            <span class="head-dim">Monopattino Fede154</span>
+            <div class="righe-inferioiri">
+              <span class="arrow"></span>
+              <span>Via Mentarini - a 490 metri da te</span>
+            </div>
+            <div class="righe-inferioiri">
+              <span>Stato Carica:</span>
+            </div>
+            <div id="barra-ricarica-3">
+            </div>
+          </div>
 
-      <footer></footer>
+        </main>
 
+      </div>
 
     </div>
-
+    <footer>Fatto con &#9829; da Lucio Bo</footer>
   </body>
 </html>

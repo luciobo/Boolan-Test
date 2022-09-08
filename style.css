@@ -1,45 +1,62 @@
 body {
   background-image: url(background.jpg);
-  background-size: 100%;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* conteiner principale */
+/* contenitore principale */
 .conteiner {
-  background-color: rgba(10,10,10,0.5);
-  border-radius: 6px;
-  margin: auto;
+  background-color: rgba(10,10,10,0.6);
+  border-radius: 12px;
+  margin: 20px 262px 10px 262px;
   width: 900px
 
+
+}
+
+/* contenitore secondario */
+.margin {
+  padding: 70px 70px 100px 70px;
 }
 
 /* modifiche header */
-header {
+.pos-header {
   text-align: center;
-  color: rgb(57,255,40);
+  color: rgba(57,255,40,1);
+  font-size: 25px;
 }
 
 .logo {
-  width: 250px
+  width: 200px
 }
 
+/* modifiche nav */
 .barra-navigazione {
   text-align: center;
-  background-color: rgb(57,255,40);
-  height: 30px;
+  background-color: rgba(57,255,40,1);
+  height: 20px;
+  border-radius: 2px;
+  padding-top: 1px;
+  padding-bottom: 8px;
+}
+
+.button-size {
+  padding: 2px 2px 2px 2px;
+  font-size: 10px;
 }
 
 /* modifiche main */
 main {
   color: white;
+  font-size: 13px;
 }
 
 .main-alighn {
-
+  margin-top: 20px;
 }
 
-.Text-dim {
-  font-size: 25px;
-  font-weight: bold;
+.head-dim {
+  font-size: 19px;
 }
 
 .arrow:before {
@@ -50,6 +67,30 @@ main {
   display: inline-block;
 }
 
-.barra-carica {
+/* riempimenti barra ricarica */
+#barra-ricarica-1{
+  background-color: rgba(247,255,3,1);
+  width: 250px;
+  height: 22px;
+  border-radius: 6px;
+}
 
+#barra-ricarica-2{
+  background-color: rgba(28,255,3,1);
+  width: 500px;
+  height: 22px;
+  border-radius: 6px;
+}
+
+#barra-ricarica-3{
+  background-color: rgba(255,3,3,1);
+  width: 125px;
+  height: 22px;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  color: rgba(10,10,10,0.6);
+  font-size: 13px;
 }
